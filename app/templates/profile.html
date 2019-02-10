@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="main">
+       <div class="Top">
+           <img src="{{url_for('static',filename='Profile.png')}}" alt="Image of Female">
+           <p> Tiffany Hudson</p>
+           <p>@TiffanyH</p>
+           <p>Kingston, Jamaica</p>
+           <p>Joined {{datejoined}}</p>
+       </div>
+       <div class= "Bottom">
+           <p> I am a smart, talented and intelligent young lady who, aspires to become a Systems Adminstrator.</p>
+                <div class="Popular">
+                    <div class="posts">
+                    <p> 7 </p>
+                    <p> Posts</p>
+                    </div>
+                    <br>
+                    <div class="followers">
+                                <p>1000 </p>
+                                <p> Followers</p>
+                            </div>
+                            <br>
+                                    <div class="following">
+                                        <p> 950</p>
+                                        <p> Following</p>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <button> Follow </button>
+                                </div>
+                                <br>
+                          </div>
+                          </div>
+{% endblock %}

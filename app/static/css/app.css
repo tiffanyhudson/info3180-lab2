@@ -1,3 +1,39 @@
 body {
     padding-top: 5rem;
 }
+
+.main{
+    margin: 250px;
+    text-align: center;
+    Font-family: "Helvetica";
+    border: 3px solid black;
+}
+
+img {
+    margin:2%;
+    border-radius:50%;
+}
+
+.bottom{
+    justify-content: center;
+}
+
+.main .Top{
+    Background-color: #288A2C;
+}
+
+.Popular{
+    display: flex;
+    justify-content:center;
+}
+
+.Popular div{
+    margin:2%;
+}
+
+button{
+    Background-color: #288A2C;
+}
+    
+
+
